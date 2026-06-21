@@ -6,7 +6,7 @@ const arivalProduct = ({product}) => {
   return (
        <div className="max-w-[386px] px-6.25 pt-3.75 pb-9 rounded-xl shadow-xl">
       <div className="w-[336px] h-[244px]">
-        <Image src={product?.image} width={336} height={244} alt="New Arrival" className="w-full h-full rounded-[10px]" />
+        <Image src={product?.image} width={336} height={244} alt={"New Arrival"} className="w-full h-full rounded-[10px]" />
       </div>
       <div className="flex items-center justify-between pt-3">
         <div>
